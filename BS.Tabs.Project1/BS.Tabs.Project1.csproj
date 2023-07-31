@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B3FB4C7-5BA3-4CC6-8162-CEC0B6A12EB7}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>BS.Tabs.Project1</RootNamespace>
+    <AssemblyName>BS.Tabs.Project1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="bootstrap\fonts\bootstrap\glyphicons-halflings-regular.eot" />
+    <None Include="bootstrap\fonts\bootstrap\glyphicons-halflings-regular.ttf" />
+    <None Include="bootstrap\fonts\bootstrap\glyphicons-halflings-regular.woff" />
+    <None Include="bootstrap\fonts\bootstrap\glyphicons-halflings-regular.woff2" />
+    <None Include="fonts\IRANSans4\bold\IRANSansWeb%28FaNum%29_Bold.eot" />
+    <None Include="fonts\IRANSans4\bold\IRANSansWeb%28FaNum%29_Bold.ttf" />
+    <None Include="fonts\IRANSans4\bold\IRANSansWeb%28FaNum%29_Bold.woff" />
+    <None Include="fonts\IRANSans4\bold\IRANSansWeb%28FaNum%29_Bold.woff2" />
+    <None Include="fonts\IRANSans4\light\IRANSansWeb%28FaNum%29_Light.eot" />
+    <None Include="fonts\IRANSans4\light\IRANSansWeb%28FaNum%29_Light.ttf" />
+    <None Include="fonts\IRANSans4\light\IRANSansWeb%28FaNum%29_Light.woff" />
+    <None Include="fonts\IRANSans4\light\IRANSansWeb%28FaNum%29_Light.woff2" />
+    <None Include="fonts\IRANSans4\medium\IRANSansWeb%28FaNum%29_Medium.eot" />
+    <None Include="fonts\IRANSans4\medium\IRANSansWeb%28FaNum%29_Medium.ttf" />
+    <None Include="fonts\IRANSans4\medium\IRANSansWeb%28FaNum%29_Medium.woff" />
+    <None Include="fonts\IRANSans4\medium\IRANSansWeb%28FaNum%29_Medium.woff2" />
+    <None Include="fonts\IRANSans4\normal\IRANSansWeb%28FaNum%29.eot" />
+    <None Include="fonts\IRANSans4\normal\IRANSansWeb%28FaNum%29.ttf" />
+    <None Include="fonts\IRANSans4\normal\IRANSansWeb%28FaNum%29.woff" />
+    <None Include="fonts\IRANSans4\normal\IRANSansWeb%28FaNum%29.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap\css\bootstrap-rtl.css" />
+    <Content Include="bootstrap\css\bootstrap-rtl.min.css" />
+    <Content Include="bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\fonts\bootstrap\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="fonts\fonts.css" />
+    <Content Include="html\HTMLPage1-FA.html" />
+    <Content Include="html\HTMLPage1.html" />
+    <Content Include="js\jquery.min.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
